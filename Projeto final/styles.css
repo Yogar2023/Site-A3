@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+body{
+  height: 100vh;
+  background-image: linear-gradient(45deg,cyan,yellow);
+}
+  .menu {
+    font-size: 0 20 0 0px;
+    padding-top: 100 0 0 0px;
+    padding: 20 30px;
+    text-align: right;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+
+  /* Cabeçalho */
+  header {
+    background-color: #3db36b;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  }
+  
+  /* Grid de produtos */
+  .container {
+    background-color: #fffdfd;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url('../img/ssd120.jfif');
+  }
+  
+  #img-2 {
+    background-image: url('../img/ssd128.jpg');
+  }
+  
+  #img-3 {
+    background-image: url('../img/ssd240.jpg');
+  }
+  
+  #img-4 {
+    background-image: url('../img/ssd256.jpg');
+  }
+  
+  #img-5 {
+    background-image: url('../img/ssd480.jpg');
+  }
+  
+  #img-6 {
+    background-image: url('../img/ssd1000.jpg');
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0f642f;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3db36b;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+  }
+  /*cadastro */
+
+  div.inputbox{
+    position: absolute;
+    background-color: rgb(43, 121, 12);
+    padding: 8px; /* Distancia entre os elementos e a Borda */
+    border-radius: 10px; /* Arredondando as Bordas */
+    color: black; /* Deixar Branco o h1 */
+    left: 40%;
+    top: 40%;
+  }
+
+  button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px; /* Tamanho do botao */
+    width: 40%; /* Ocupar 100% do espaço */ 
+    border-radius: 10px; /* Arredondando a borda do botao */
+    color: white; /* Cor das letras */
+    font-size: 15px; /* Tamanho das letras dentro do botao */
+  }
+  button:hover{
+    background-color: deepskyblue; /* Muda a cor do botao quando coloca mouse em cima */
+    cursor: pointer; /* Muda o design do cursor em cima do botao */
+  }
+  div.box{
+    font-size: 30px;
+    padding: 6px;
+    background-color:transparent;
+    position: absolute;
+    border-radius: 50px;
+    left: 42.5%;
+    top: 30%;
+  }
